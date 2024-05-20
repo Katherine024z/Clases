@@ -7,8 +7,6 @@ int main()
       papel  = 2
       tijera = 3*/
     
-    int usuario;
-    int maquina;
     int num;
     int a1;
     int a2;
@@ -17,16 +15,14 @@ int main()
     int b2;
     int b3;
 
-    
-
     for(int i = 0; i<5; i ++)
     {
         cout << "Piedra, papel o tijera\n";
         cout << "Ingrese un numero";
         cin >> num;
-        
+
         cout << 1 + rand()%3 << "";
-        return 0;
+        
     }  
     if (a1=b1)
     {
