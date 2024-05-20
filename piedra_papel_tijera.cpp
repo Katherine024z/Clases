@@ -8,26 +8,29 @@ int main()
       tijera = 3*/
     
     int num;
-    int a1;
-    int a2;
-    int a3;
-    int b1;
-    int b2;
-    int b3;
+    int i = 1;
+    int maquina;
 
-    for(int i = 0; i<5; i ++)
+
+    while( i<=3)
     {
-        cout << "Piedra, papel o tijera\n";
+
+        cout << "1.Piedra, 2. papel o 3. tijera\n";
         cout << "Ingrese un numero";
         cin >> num;
 
-        cout << 1 + rand()%3 << "";
-        
-    }  
-    if (a1=b1)
-    {
-        cout << "Es empate";
+        maquina = 1+rand()%3;
+        if (num == maquina)
+        {
+            cout << "Es empate\n";
+        }else if (num == 2 && maquina == 1|| num == 3 && maquina == 2)
+        {
+            cout << "Gana usuario\n";
+        }else (num == 1 && maquina == 2|| num == 2 && maquina == 3);
+        {
+            cout << "Gana maquina\n";
+            }
+      i ++;  
     }
-
     return 0;
 }
