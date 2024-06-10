@@ -1,4 +1,4 @@
-#include <iostream>  
+#include <iostream>  //Libreria son el conjunto de funciones
 using namespace std;
 
 //Funcion
